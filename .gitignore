@@ -1,0 +1,70 @@
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорировать временные файлы редакторов и ОС
+*.swp
+*.bak
+*.tmp
+*.log
+*.idea/
+*.vscode/
+*.project
+*.class
+
+# Игнорировать файлы сборки и временные файлы
+build/
+tmp/
+temp/
+dist/
+
+# Игнорировать скомпилированные двоичные файлы
+*.o
+*.so
+*.exe
+
+# Игнорировать зависимости и окружения
+node_modules/
+vendor/
+.env
+.env.local
+
+# Игнорировать выходные файлы и папки, используемые в процессе работы
+*.out
+*.pdf
+*.epub
+*.mobi
+
+# Игнорировать файлы, связанные с изображениями и иллюстрациями
+*.psd
+*.xcf
+
+# Игнорировать файлы IDE и редакторов
+.idea/
+.vscode/
+*.iml
+
+# Игнорировать скрипты и логи
+scripts/*.sh~
+scripts/*.log
+
+# Игнорировать временные файлы и каталоги для документации
+docs/*.tmp
+docs/*.log
+
+# Игнорировать временные файлы и каталоги для ресурсов
+assets/fonts/*.tmp
+assets/styles/*.tmp
+
+# Исключить из игнорирования значимые файлы
+!.gitignore
+!README.md
+!LICENSE
+
+# Игнорировать временные файлы и каталоги в основных папках
+book/original/*.tmp
+book/original/*.log
+book/translation/*.tmp
+book/translation/*.log
+images/illustrations/**/*.tmp
+images/illustrations/**/*.log
